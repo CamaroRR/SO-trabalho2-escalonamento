@@ -1,0 +1,94 @@
+{
+  "algoritmo": "RR",
+  "linha_do_tempo": [
+    {
+      "processo": "P01",
+      "inicio": 0,
+      "fim": 2
+    },
+    {
+      "processo": "P02",
+      "inicio": 2,
+      "fim": 4
+    },
+    {
+      "processo": "P01",
+      "inicio": 4,
+      "fim": 6
+    },
+    {
+      "processo": "P03",
+      "inicio": 6,
+      "fim": 7
+    },
+    {
+      "processo": "P02",
+      "inicio": 7,
+      "fim": 9
+    },
+    {
+      "processo": "P04",
+      "inicio": 9,
+      "fim": 11
+    },
+    {
+      "processo": "P01",
+      "inicio": 11,
+      "fim": 13
+    },
+    {
+      "processo": "P02",
+      "inicio": 13,
+      "fim": 15
+    },
+    {
+      "processo": "P04",
+      "inicio": 15,
+      "fim": 16
+    },
+    {
+      "processo": "P02",
+      "inicio": 16,
+      "fim": 17
+    }
+  ],
+  "processos": [
+    {
+      "id": "P01",
+      "primeira_execucao": 0,
+      "conclusao": 13,
+      "turnaround": 13,
+      "espera": 7,
+      "resposta": 0
+    },
+    {
+      "id": "P02",
+      "primeira_execucao": 2,
+      "conclusao": 17,
+      "turnaround": 16,
+      "espera": 9,
+      "resposta": 1
+    },
+    {
+      "id": "P03",
+      "primeira_execucao": 6,
+      "conclusao": 7,
+      "turnaround": 4,
+      "espera": 3,
+      "resposta": 3
+    },
+    {
+      "id": "P04",
+      "primeira_execucao": 9,
+      "conclusao": 16,
+      "turnaround": 10,
+      "espera": 7,
+      "resposta": 3
+    }
+  ],
+  "medias": {
+    "turnaround": 10.75,
+    "espera": 6.5,
+    "resposta": 1.75
+  }
+}

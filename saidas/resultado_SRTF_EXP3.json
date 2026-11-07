@@ -1,0 +1,69 @@
+{
+  "algoritmo": "SRTF",
+  "linha_do_tempo": [
+    {
+      "processo": "P01",
+      "inicio": 0,
+      "fim": 3
+    },
+    {
+      "processo": "P03",
+      "inicio": 3,
+      "fim": 4
+    },
+    {
+      "processo": "P01",
+      "inicio": 4,
+      "fim": 7
+    },
+    {
+      "processo": "P04",
+      "inicio": 7,
+      "fim": 10
+    },
+    {
+      "processo": "P02",
+      "inicio": 10,
+      "fim": 17
+    }
+  ],
+  "processos": [
+    {
+      "id": "P01",
+      "primeira_execucao": 0,
+      "conclusao": 7,
+      "turnaround": 7,
+      "espera": 1,
+      "resposta": 0
+    },
+    {
+      "id": "P02",
+      "primeira_execucao": 10,
+      "conclusao": 17,
+      "turnaround": 16,
+      "espera": 9,
+      "resposta": 9
+    },
+    {
+      "id": "P03",
+      "primeira_execucao": 3,
+      "conclusao": 4,
+      "turnaround": 1,
+      "espera": 0,
+      "resposta": 0
+    },
+    {
+      "id": "P04",
+      "primeira_execucao": 7,
+      "conclusao": 10,
+      "turnaround": 4,
+      "espera": 1,
+      "resposta": 1
+    }
+  ],
+  "medias": {
+    "turnaround": 7.0,
+    "espera": 2.75,
+    "resposta": 2.5
+  }
+}

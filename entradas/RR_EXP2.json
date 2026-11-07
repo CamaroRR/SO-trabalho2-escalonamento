@@ -1,0 +1,15 @@
+{
+  "algoritmo": "RR",
+  "configuracao": {
+    "quantum": 2
+  },
+  "processos": [
+    {"id": "P02", "chegada": 0, "cpu": 3},
+    {"id": "P01", "chegada": 0, "cpu": 3},
+    {"id": "P03", "chegada": 1, "cpu": 2},
+    {"id": "P04", "chegada": 4, "cpu": 2},
+    {"id": "P05", "chegada": 12, "cpu": 5},
+    {"id": "P06", "chegada": 13, "cpu": 1},
+    {"id": "P07", "chegada": 16, "cpu": 3}
+  ]
+}

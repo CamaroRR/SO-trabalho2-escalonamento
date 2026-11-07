@@ -1,0 +1,133 @@
+{
+  "algoritmo": "RR",
+  "linha_do_tempo": [
+    {
+      "processo": "P01",
+      "inicio": 0,
+      "fim": 2
+    },
+    {
+      "processo": "P02",
+      "inicio": 2,
+      "fim": 4
+    },
+    {
+      "processo": "P03",
+      "inicio": 4,
+      "fim": 6
+    },
+    {
+      "processo": "P01",
+      "inicio": 6,
+      "fim": 7
+    },
+    {
+      "processo": "P04",
+      "inicio": 7,
+      "fim": 9
+    },
+    {
+      "processo": "P02",
+      "inicio": 9,
+      "fim": 10
+    },
+    {
+      "processo": "OCIOSO",
+      "inicio": 10,
+      "fim": 12
+    },
+    {
+      "processo": "P05",
+      "inicio": 12,
+      "fim": 14
+    },
+    {
+      "processo": "P06",
+      "inicio": 14,
+      "fim": 15
+    },
+    {
+      "processo": "P05",
+      "inicio": 15,
+      "fim": 17
+    },
+    {
+      "processo": "P07",
+      "inicio": 17,
+      "fim": 19
+    },
+    {
+      "processo": "P05",
+      "inicio": 19,
+      "fim": 20
+    },
+    {
+      "processo": "P07",
+      "inicio": 20,
+      "fim": 21
+    }
+  ],
+  "processos": [
+    {
+      "id": "P01",
+      "primeira_execucao": 0,
+      "conclusao": 7,
+      "turnaround": 7,
+      "espera": 4,
+      "resposta": 0
+    },
+    {
+      "id": "P02",
+      "primeira_execucao": 2,
+      "conclusao": 10,
+      "turnaround": 10,
+      "espera": 7,
+      "resposta": 2
+    },
+    {
+      "id": "P03",
+      "primeira_execucao": 4,
+      "conclusao": 6,
+      "turnaround": 5,
+      "espera": 3,
+      "resposta": 3
+    },
+    {
+      "id": "P04",
+      "primeira_execucao": 7,
+      "conclusao": 9,
+      "turnaround": 5,
+      "espera": 3,
+      "resposta": 3
+    },
+    {
+      "id": "P05",
+      "primeira_execucao": 12,
+      "conclusao": 20,
+      "turnaround": 8,
+      "espera": 3,
+      "resposta": 0
+    },
+    {
+      "id": "P06",
+      "primeira_execucao": 14,
+      "conclusao": 15,
+      "turnaround": 2,
+      "espera": 1,
+      "resposta": 1
+    },
+    {
+      "id": "P07",
+      "primeira_execucao": 17,
+      "conclusao": 21,
+      "turnaround": 5,
+      "espera": 2,
+      "resposta": 1
+    }
+  ],
+  "medias": {
+    "turnaround": 6.0,
+    "espera": 3.2857142857142856,
+    "resposta": 1.4285714285714286
+  }
+}
